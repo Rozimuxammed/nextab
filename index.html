@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nextab</title>
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body>
+
+    <ul
+        class="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-4 w-full border border-slate-600 shadow-md font-medium fixed z-10 bg-[#1d232a]">
+        <li class="border-r border-slate-600 py-3 px-2 sm:px-4 text-center">
+            <button class="js-products w-full h-full cursor-pointer">Mahsulotlar</button>
+        </li>
+        <li class="border-r border-slate-600 py-3 px-2 sm:px-4 text-center">
+            <button class="js-products w-full h-full cursor-pointer">O'quvchilar</button>
+        </li>
+        <li class="border-r border-slate-600 py-3 px-2 sm:px-4 text-center">
+            <button class="js-products w-full h-full cursor-pointer">Hayvonlar</button>
+        </li>
+        <li class="py-3 px-2 sm:px-4 text-center">
+            <button class="js-products w-full h-full cursor-pointer">Mashinalar</button>
+        </li>
+    </ul>
+
+    <div id="cards" class="grid gap-4 px-4 pt-[120px] place-items-center
+      grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <span id="loading"
+            class="loading loading-ring w-[200px] sm:w-[300px] md:w-[400px] lg:w-[500px] mt-20 ml-[450px] mx-auto"></span>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
