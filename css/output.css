@@ -383,9 +383,6 @@
   .z-10 {
     z-index: 10;
   }
-  .mx-auto {
-    margin-inline: auto;
-  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
@@ -394,9 +391,6 @@
   }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
-  }
-  .ml-\[450px\] {
-    margin-left: 450px;
   }
   .badge {
     display: inline-flex;
@@ -562,9 +556,6 @@
   .border-gray-600 {
     border-color: var(--color-gray-600);
   }
-  .border-gray-800 {
-    border-color: var(--color-gray-800);
-  }
   .border-gray-900 {
     border-color: var(--color-gray-900);
   }
@@ -603,12 +594,6 @@
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
-  .pt-20 {
-    padding-top: calc(var(--spacing) * 20);
-  }
-  .pt-40 {
-    padding-top: calc(var(--spacing) * 40);
-  }
   .pt-\[120px\] {
     padding-top: 120px;
   }
@@ -641,10 +626,6 @@
     --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  .shadow-sm {
-    --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
   .shadow-gray-700 {
     --tw-shadow-color: oklch(37.3% 0.034 259.733);
     @supports (color: color-mix(in lab, red, red)) {
@@ -662,11 +643,6 @@
   .sm\:mx-auto {
     @media (width >= 40rem) {
       margin-inline: auto;
-    }
-  }
-  .sm\:ml-\[2\] {
-    @media (width >= 40rem) {
-      margin-left: 2;
     }
   }
   .sm\:ml-\[250px\] {
@@ -699,21 +675,6 @@
       padding-inline: calc(var(--spacing) * 4);
     }
   }
-  .sm\:pt-2 {
-    @media (width >= 40rem) {
-      padding-top: calc(var(--spacing) * 2);
-    }
-  }
-  .sm\:pt-32 {
-    @media (width >= 40rem) {
-      padding-top: calc(var(--spacing) * 32);
-    }
-  }
-  .sm\:pt-40 {
-    @media (width >= 40rem) {
-      padding-top: calc(var(--spacing) * 40);
-    }
-  }
   .md\:mx-auto {
     @media (width >= 48rem) {
       margin-inline: auto;
@@ -722,11 +683,6 @@
   .md\:ml-\[350px\] {
     @media (width >= 48rem) {
       margin-left: 350px;
-    }
-  }
-  .md\:ml-\[450px\] {
-    @media (width >= 48rem) {
-      margin-left: 450px;
     }
   }
   .md\:w-\[400px\] {
